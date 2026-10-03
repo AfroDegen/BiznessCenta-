@@ -123,4 +123,24 @@
         </div>
 
         <div class="pricing">
-            <div class="price">₦50,000
+            <div class="price">₦50,000</div>
+            <p>1 payment → 3 months access<br>(Month 1 paid, Months 2-3 free)</p>
+        </div>
+
+        <button class="whatsapp-btn" onclick="openWhatsApp()">💬 Message on WhatsApp</button>
+
+        <div class="footer">
+            No credit card. No contracts. Real results in 30 days.
+        </div>
+    </div>
+
+    <script>
+        function openWhatsApp() {
+            const phoneNumber = "2347018172342";
+            const message = "Hi Rex. I want to get Google sales for my store. Let's talk.";
+            const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.location.href = whatsappLink;
+        }
+    </script>
+</body>
+</html>
